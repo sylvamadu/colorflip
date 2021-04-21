@@ -1,0 +1,68 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+header{
+    height: 4rem;
+    padding: 2rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0rem .2rem rgb(221, 217, 217);
+    background: white !important;
+}
+header a{
+    text-decoration: none;
+    padding-top: 1.5rem;
+    color: maroon;
+    font-family: tahoma;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 35%;
+    text-align: center;
+}
+.center-block{
+    background: black;
+    color: white;
+    padding: .8rem 1.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+#btn{
+    padding: .4rem 1.1rem;
+    border-radius: 1rem;
+    font-size: large;
+    border: none;
+}
+.active{
+    color:rgb(18, 18, 189);
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 4rem;
+    padding: 2rem auto;
+    text-align: center;
+    background: white !important;
+}
+footer h5{
+    text-align: center;
+    color: black;
+    font-size: large;
+    font-family: cursive;
+}
+@media only screen and (min-width: 768px)  {
+    section{
+        margin-top: 16%;
+
+    }
+}
